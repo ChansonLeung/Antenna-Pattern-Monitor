@@ -1,0 +1,19 @@
+{
+  "name": "algrithum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "devDependencies": {
+    "bindings": "^1.5.0"
+  },
+  "dependencies": {
+    "electron-share-memory": "^1.0.1"
+  }
+}
